@@ -23,8 +23,8 @@ object Main extends App{
   
   
   def store(key: String, inputStream: InputStream, contentType: String = "text/plain") = {
-    val awsAccessKey = "AKIAI2UTMRYRH4N5R24A"
-    val awsSecretKey = "QD0fWwYkLJhmjB3gHx9ZRmo0/ysbRXf8MTiv/Od2"
+    val awsAccessKey = "YOUR_ACCESS_KEY"
+    val awsSecretKey = "YOUR_SECRET_KEY"
     val awsCredentials = new AWSCredentials(awsAccessKey, awsSecretKey)
     val s3Service = new RestS3Service(awsCredentials)
     val bucketName = "test-scala-upload"
