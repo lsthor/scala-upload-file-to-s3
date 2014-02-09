@@ -1,0 +1,4 @@
+Upload file to S3
+=================
+
+This is a test text file. You should be able to download this from your S3 bucket.
